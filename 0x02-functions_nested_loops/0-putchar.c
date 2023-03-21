@@ -7,7 +7,7 @@
 int _putchar(char c)
 {
 	int n;
-	char c = "putchar";
+	c = "putchar";
 	for (n=0;n < 1; n++)
 	{
 		_putchar(c + '\n');
