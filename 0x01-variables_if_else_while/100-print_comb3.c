@@ -20,8 +20,8 @@ int main(void)
 				if (c + d != 113)
 				{
 					putchar(',');
+					putchar(' ');
 				}
-				putchar(' ');
 			}
 		}
 	}
