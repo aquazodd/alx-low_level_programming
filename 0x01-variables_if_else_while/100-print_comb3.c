@@ -15,8 +15,8 @@ int main(void)
 		{
 			if (c != d && c < d)
 			{
-				putchar(c);
-				putchar(d);
+				putchar(c + '0');
+				putchar(d + '0');
 				if (c + d != 113)
 				{
 					putchar(',');
