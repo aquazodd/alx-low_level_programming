@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-        int c;
-        int d;
+	int c;
+	int d;
 	int e;
 
 	for (c = 48; c <= 57; c++)
-        {
-                for (d = 48; d <= 57; d++)
+	{
+		for (d = 48; d <= 57; d++)
 		{
 			for (e = 48; e <= 57; e++)
 			{
