@@ -9,15 +9,15 @@ int main(void)
 	int c;
 	int d;
 
-	for (c = 0; c <= 9; c++)
+	for (c = 48; c <= 57; c++)
 	{
-		for (d = 0; d <= 9; d++)
+		for (d = 48; d <= 57; d++)
 		{
 			if (c != d && c < d)
 			{
-				putchar(c + '0');
-				putchar(d + '0');
-				if (c + d != 17)
+				putchar(c);
+				putchar(d);
+				if (c + d != 113)
 				{
 					putchar(',');
 					putchar(' ');
@@ -25,5 +25,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
