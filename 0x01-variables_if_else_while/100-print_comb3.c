@@ -8,7 +8,7 @@ int main(void)
 {
 	int c;
 	int d;
-	for (c = 48; c <= 57; c++)
+	for(c = 48; c <= 57; c++)
 	{
 		for (d = 48; d <= 57; d++)
 		{
@@ -23,6 +23,6 @@ int main(void)
 				putchar(' ');
 			}
 		}
-	}	
-	return(0); 
+	}
+	return(0);
 }
