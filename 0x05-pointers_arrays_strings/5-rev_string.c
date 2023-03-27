@@ -10,5 +10,4 @@ void rev_string(char *s)
 
 	z = strrev(s);
 	printf("%c", z);
-	return (0);
 }
