@@ -11,9 +11,8 @@ void rev_string(char *s)
 	char reversed[30];
 	long int length = strlen(s);
 	
-	for(i=0; i<length; ++i)
-	{
+	for(i=0; i < length; ++i)
 		reversed[length-i-1] = s[i];
-	}
+
 }
 
