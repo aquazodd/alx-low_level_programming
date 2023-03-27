@@ -6,6 +6,9 @@
  */
 void rev_string(char *s)
 {
-	printf("%c", strrev(s));
-	return 0;
+	char z;
+
+	z = strrev(s);
+	printf("%c", z);
+	return (0);
 }
