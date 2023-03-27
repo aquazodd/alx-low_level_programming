@@ -15,6 +15,5 @@ void rev_string(char *s)
 	{
 		reversed[length-i-1] = s[i];
 	}
-	printf("%s\n",reversed);
 }
 
