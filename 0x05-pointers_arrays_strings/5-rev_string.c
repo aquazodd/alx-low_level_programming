@@ -13,6 +13,6 @@ void rev_string(char *s)
 	
 	for(i=0; i < length; ++i)
 		reversed[length-i-1] = s[i];
-
+	printf("%s", reversed);
 }
 
