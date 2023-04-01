@@ -7,7 +7,8 @@
 int main(void)
 {
 	int num = 0;
-	int sum = 0;	
+	int sum = 0;
+
 	while (num < 1024)
 	{
 		if (num % 3 == 0 || num % 5 == 0)
