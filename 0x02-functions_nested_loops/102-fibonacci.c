@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	unsigned int i, sum;
-	unsigned int first = 1;
-	unsigned int second = 2;
+	int i, sum;
+	int first = 1;
+	int second = 2;
 
 	for (i = 1; i < 50; i++)
 	{
-		printf("%d, ", first);
+		printf("%u, ", first);
 		sum = first + second;
 		first = second;
 		second = sum;
