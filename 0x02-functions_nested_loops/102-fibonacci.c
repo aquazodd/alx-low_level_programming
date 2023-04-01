@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	long long i, sum;
-	long long first = 1;
-	long long second = 2;
+	unsigned int i, sum;
+	unsigned int first = 1;
+	unsigned int second = 2;
 
 	for (i = 1; i < 50; i++)
 	{
